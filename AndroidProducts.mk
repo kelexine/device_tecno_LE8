@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_TECNO-LE8.mk
+    $(LOCAL_DIR)/twrp_LE8.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_TECNO-LE8-user \
-    omni_TECNO-LE8-userdebug \
-    omni_TECNO-LE8-eng
+    twrp_LE8-user \
+    twrp_LE8-userdebug \
+    twrp_LE8-eng
