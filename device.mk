@@ -13,7 +13,6 @@ AB_OTA_POSTINSTALL_CONFIG += \
     FILESYSTEM_TYPE_system=ext4 \
     POSTINSTALL_OPTIONAL_system=true
 
-# Boot control HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service
@@ -21,7 +20,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.mt6877
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+# Updated attribute - Use a shared library module for boot control HAL
+PRODUCT_SHARED_BOOT_CONTROL_HAL := \
     bootctrl.mt6877 \
     libgptutils \
     libz \
