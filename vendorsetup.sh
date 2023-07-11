@@ -1,10 +1,3 @@
-#
-# Copyright (C) 2023 The Android Open Source Project
-# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-
-add_lunch_combo omni_TECNO-LE8-user
-add_lunch_combo omni_TECNO-LE8-userdebug
-add_lunch_combo omni_TECNO-LE8-eng
+export FOX_VANILLA_BUILD=1
+export FOX_AB_DEVICE=1
+export OF_FORCE_PREBUILT_KERNEL=1
